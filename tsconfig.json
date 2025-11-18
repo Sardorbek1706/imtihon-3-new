@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["node_modules/*", "*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/config/index.ts", "src/controllers/auth.controller.js", "src/controllers/categories.controller.js", "src/controllers/discounts.controller.js", "src/controllers/products.controller.js", "src/controllers/tags.controller.js", "src/db/migrations/001_create_users.js", "src/db/migrations/002_create_products.js", "src/db/migrations/003_create_categories.js", "src/db/migrations/004_create_tags.js", "src/db/migrations/005_create_product_tags.js", "src/db/migrations/006_create_discounts.js", "src/db/seeds/initial.seed.js", "src/db/knex.js", "src/dtos/index.js", "src/middlewares/auth.middleware.js", "src/middlewares/error.middleware.js", "src/middlewares/role.middleware.js", "src/models/category.model.js", "src/models/discount.model.js", "src/models/product.model.js", "src/models/tag.model.js", "src/models/user.model.js", "src/repositories/discount.repository.js", "src/repositories/category.repository.js", "src/repositories/product.repository.js", "src/repositories/tag.repository.js", "src/repositories/user.repository.js", "src/routes/auth.routes.js", "src/routes/categories.routes.js", "src/routes/discounts.routes.js", "src/routes/index.js", "src/routes/products.routes.js", "src/routes/tags.routes.js", "src/services/auth.service.js", "src/services/categories.service.js", "src/services/discounts.service.js", "src/services/products.service.js", "src/services/tags.service.js", "src/utils/jwt.js", "src/utils/logger.js", "src/utils/validators.js", "src/app.js", "src/server.js"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
